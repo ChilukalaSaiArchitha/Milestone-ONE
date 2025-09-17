@@ -1,0 +1,46 @@
+.mood-page {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.mood-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+.mood-card {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border-radius: 20px;
+  width: 320px;
+  min-height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.mood-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.2);
+}
+
+.mood-card h2 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  color: #ff6b6b;
+}
+
+.emotion-display {
+  font-size: 2rem;
+  margin-top: 50px;
+  font-weight: 600;
+}
